@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json --outDir ./dist",
+    "start-consumer": "node dist/consumer.js",
+    "start-producer": "node dist/producer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/kafkajs": "^1.9.0"
+  }
+}
